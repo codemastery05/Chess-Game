@@ -11,7 +11,7 @@ You can play the Chess Game online by visiting the following URL: http://13.126.
    - Open your terminal or command prompt.
    - Run the following command to clone the repository:
      ```
-     git clone https://github.com/Mithesh2004/Chess-Game
+     git clone https://github.com/codemastery05/Chess-Game
      ```
 
 2. **Start the Server:**
