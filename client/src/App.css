@@ -1,0 +1,41 @@
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes northernLights {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.welcome-text {
+  padding-top: 10px;
+  background: linear-gradient(45deg, #00ff00, #002aff, #00ff00, #002aff);
+  background-size: 400% 400%;
+  animation: northernLights 4s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lobby {
+  background: linear-gradient(-45deg, #302b63, #105f4d, #24243e, #0f0c29);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  min-height: 100vh;
+  padding-bottom: 5px;
+}
+.game {
+  background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+  min-height: 100vh;
+  padding-bottom: 5px;
+}
